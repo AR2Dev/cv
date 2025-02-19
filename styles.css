@@ -21,16 +21,4 @@ html {
     z-index: 2;
   }
   
-  .info {
-    text-align: justify;
-    word-break: break-word; /* Corta las palabras si es necesario */
-    overflow-wrap: break-word; /* Evita que las palabras largas causen problemas */
-  }
-  
-  @media (max-width: 768px) {
-    .info {
-      text-align: left; /* Cambia el texto a alineación a la izquierda */
-    }
-  }
-  
   
