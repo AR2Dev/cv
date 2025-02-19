@@ -28,9 +28,9 @@ html {
   }
   
   @media (max-width: 768px) {
-    .content {
-      padding: 10px;
-      max-width: 100%;
+    .info {
+      text-align: left; /* Cambia el texto a alineación a la izquierda */
     }
   }
+  
   
