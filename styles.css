@@ -27,10 +27,3 @@ html {
     overflow-wrap: break-word; /* Evita que las palabras largas causen problemas */
   }
   
-  @media (max-width: 768px) {
-    .content {
-      padding: 10px;
-      max-width: 100%;
-    }
-  }
-  
