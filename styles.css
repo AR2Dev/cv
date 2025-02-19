@@ -23,5 +23,7 @@ html {
   
   .info {
     text-align: justify;
+    word-break: break-word; /* Corta las palabras si es necesario */
+    overflow-wrap: break-word; /* Evita que las palabras largas causen problemas */
   }
   
