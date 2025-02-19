@@ -1,0 +1,23 @@
+/* Suaviza el scroll al hacer clic en los links del navbar */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Superponer un filtro oscuro en el header para resaltar el contenido */
+  header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+  }
+  
+  /* Asegura que el contenido del header esté por encima del filtro */
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
