@@ -142,6 +142,38 @@
     </div>
   </section>
 
+  <!-- Galería de Proyectos -->
+  <section id="proyectos" class="container my-5">
+    <h2 class="text-center mb-4">Mis Proyectos</h2>
+
+    <!-- Swiper Container -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <!-- Proyecto 1 -->
+            <div class="swiper-slide">
+                <img src="img/clbcomercio.png" class="img-fluid" alt="Proyecto 1">
+                <p class="text-center mt-2">Proyecto 1 - clbcomercio</p>
+            </div>
+
+            <!-- Proyecto 2 -->
+            <div class="swiper-slide">
+                <img src="img/krystalsurl.png" class="img-fluid" alt="Proyecto 2">
+                <p class="text-center mt-2">Proyecto 2 - krystalsurl</p>
+            </div>
+
+            <!-- Proyecto 3 -->
+            <div class="swiper-slide">
+              <img src="img/compradtodo.png" class="img-fluid" alt="Proyecto 2">
+              <p class="text-center mt-2">Proyecto 3 - compradtodo</p>
+          </div>
+        </div>
+        <!-- Botones de navegación -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
   <!-- Contacto -->
   <section id="contacto" class="py-5">
     <div class="container" data-aos="fade-up">
@@ -180,6 +212,23 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
   <script>
     AOS.init();
+  </script>
+  <!-- SwiperJS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+  var swiper = new Swiper(".mySwiper", {
+    loop: true,
+    spaceBetween: 20,
+    slidesPerView: 1, // Muestra una imagen por vez
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
   </script>
 </body>
 </html>
